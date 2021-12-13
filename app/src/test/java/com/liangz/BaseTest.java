@@ -19,8 +19,8 @@ public class BaseTest {
             DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
             desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
             desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11.0.0");
-            desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "9A241FFBA001CQ");
-            desiredCapabilities.setCapability(MobileCapabilityType.UDID, "9A241FFBA001CQ");
+            desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "yourDeviceName");
+            desiredCapabilities.setCapability(MobileCapabilityType.UDID, "yourDeviceId");
             desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 90);  //If no command input, then will delete the session.
             desiredCapabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
             desiredCapabilities.setCapability("chromedriverExecutableDir", "c:/chromedriver");
